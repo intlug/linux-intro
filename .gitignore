@@ -1,0 +1,31 @@
+# Marp output files
+*.html
+*.pdf
+*.pptx
+*.png
+*.jpg
+*.jpeg
+
+# Keep source images
+!images/
+!images/**
+
+# Node modules (if using marp-cli locally)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
