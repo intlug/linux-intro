@@ -58,6 +58,27 @@ style: |
   section.intro::after {
     display: none;
   }
+  .highlight {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+---
+Welcome to INTLUG
+
+Today's topic:
+<span class=highlight>Introduction to Linux</span>
+
+Deck: https://github.com/intlug/linux-intro.git
+
+Talk schedule, RSVP etc:
+https://heylo.group/international-linux-users-group
+
+Mailinglist:
+https://lists.firemountain.net/mailman/listinfo/intlug
+
+Open to all who want to talk about Linux
+
+
 ---
 
 <!-- _class: intro -->
