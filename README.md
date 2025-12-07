@@ -45,7 +45,7 @@ npx @marp-team/marp-cli
 To create an HTML file from the presentation:
 
 ```bash
-npx @marp-team/marp-cli presentation.md -o presentation.html
+npx @marp-team/marp-cli --html presentation.md -o presentation.html
 ```
 
 Open `presentation.html` in your web browser to view the presentation.
@@ -55,7 +55,7 @@ Open `presentation.html` in your web browser to view the presentation.
 To create a PDF version:
 
 ```bash
-npx @marp-team/marp-cli presentation.md -o presentation.pdf
+npx @marp-team/marp-cli --html presentation.md -o presentation.pdf
 ```
 
 **Note:** PDF generation requires Chrome, Chromium, or Edge to be installed on your system.
