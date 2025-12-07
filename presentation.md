@@ -40,8 +40,19 @@ style: |
   .columns > div {
     flex: 1;
   }
+  .columns-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .column {
+    flex: 1;
+    padding: 10px;
+  }
   section.lead h1, section.lead h2 {
     color: #50fa7b;
+  }
+  section.intro h1, section.intro h2 {
+    color: #ffffffff;
   }
   section.intro::after {
     content: '';
@@ -63,10 +74,10 @@ style: |
     font-weight: bold;
   }
 ---
-Welcome to INTLUG
+# Welcome to INTLUG
 
 Today's topic:
-<span class=highlight>Introduction to Linux</span>
+**Introduction to Linux**
 
 Deck: https://github.com/intlug/linux-intro.git
 
@@ -77,7 +88,6 @@ Mailinglist:
 https://lists.firemountain.net/mailman/listinfo/intlug
 
 Open to all who want to talk about Linux
-
 
 ---
 
@@ -197,21 +207,10 @@ What are you using and why?
 - What changes and what doesn't when switching DEs
 
 **Common System Tools**
-
-<div class="columns">
-<div>
-
 - File managers
 - Settings menu
-
-</div>
-<div>
-
 - Software center
 - GUI update tools
-
-</div>
-</div>
 
 <!-- **Activity:** Browse system settings -->
 
@@ -380,28 +379,28 @@ Linux is everywhere
 
 ---
 
-## Why IT Pros Need Linux Knowledge (cont.)
+# Why IT Pros Need Linux Knowledge
 
-<div class="columns">
-<div>
+<div class="columns-container">
+<div class="column">
 
-**DevOps & SRE:**
+## DevOps & SRE:
 - CI/CD pipelines
 - Automation
 - Infrastructure-as-Code
 
-**Security careers:**
+</div>
+<div class="column">
+
+## Security careers:
 - Logs, permissions, systemd
 - Kernel features, forensic tools
 
 </div>
-<div>
+</div>
 
-**Data centers & virtualization:**
+## Data centers & virtualization:
 - KVM, Proxmox, VMware integrations
-
-</div>
-</div>
 
 ---
 
@@ -459,4 +458,4 @@ Linux is everywhere
 <!-- _class: lead -->
 # Thank You!
 
-**What topics do you want next time**
+## What topics do you want next time
